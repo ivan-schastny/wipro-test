@@ -1,0 +1,11 @@
+Hello,
+
+Please find an implementation of the web crawler.
+What it can do:
+    * Build a deep site map - visit all internal pages recursively
+    * Build a simple site map - visit just the target page
+
+How to run:
+    java -classpath "Your classpath" -Dmode=deep com.wipro.crawler.Crawler http://wiprodigital.com
+
+If -Dmode=deep is not passed, then the crawler will visit just the target page.
